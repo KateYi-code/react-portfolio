@@ -9,8 +9,10 @@ export default function Navbar({ activeSection, scrollToSection, darkMode, toggl
           <span className="font-bold text-xl tracking-tight bg-gradient-to-r from-blue-600 to-teal-400 bg-clip-text text-transparent">
             YY
           </span>
+          
           <div className="hidden md:flex space-x-8">
-            {['Home', 'About', 'Skills', 'Projects', 'Experience'].map((item) => (
+            {/* 增加了 'Awards' */}
+            {['Home', 'About', 'Skills', 'Projects', 'Awards', 'Experience'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}
@@ -20,6 +22,7 @@ export default function Navbar({ activeSection, scrollToSection, darkMode, toggl
               </button>
             ))}
           </div>
+
           <button 
             onClick={toggleTheme}
             className={`p-2 rounded-full transition-colors ${darkMode ? 'hover:bg-slate-800 text-yellow-400' : 'hover:bg-slate-100 text-slate-600'}`}

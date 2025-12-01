@@ -7,9 +7,10 @@ export const personalInfo = {
   name: "Yingrao Yi",
   role: "Full Stack Developer & Data Analyst",
   location: "Auckland, New Zealand",
-  email: "Myingraoyi@gmail.com",
+  email: "yingraoyi@gmail.com",
+  phone: "+64 2885253677",
   github: "https://github.com/KateYi-code",
-  linkedin: "#", 
+  linkedin: "https://www.linkedin.com/in/yingrao-yi/", 
   bio: "Masters student in Information Technology at the University of Auckland with a strong background in Mathematics. Experienced in full-stack development (Svelte, React, Node.js) and data analysis. Passionate about building interactive web applications and solving complex problems with numerical algorithms."
 };
 
