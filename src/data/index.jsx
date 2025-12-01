@@ -73,18 +73,3 @@ export const experienceData = [
     tags: ["LLMs", "Risk Analysis", "Insurance"]
   }
 ];
-
-export const educationData = [
-  {
-    degree: "Master of Science in Information Technology",
-    school: "University of Auckland",
-    date: "07/2024 - Ongoing",
-    location: "Auckland, New Zealand"
-  },
-  {
-    degree: "Bachelor of Science in Mathematics",
-    school: "University of Guangdong Technology",
-    date: "09/2010 - 06/2023",
-    location: "Guangzhou, China"
-  }
-];
