@@ -11,8 +11,7 @@ export default function Navbar({ activeSection, scrollToSection, darkMode, toggl
           </span>
           
           <div className="hidden md:flex space-x-8">
-            {/* 增加了 'Awards' */}
-            {['Home', 'About', 'Skills', 'Projects', 'Awards', 'Experience'].map((item) => (
+            {['Home', 'About', 'Skills', 'Projects', 'Awards', 'ResearchExperience','Experience'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}

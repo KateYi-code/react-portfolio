@@ -6,6 +6,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Awards from './components/Awards';
+import ResearchExperience from './components/ResearchExperience';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Footer from './components/Footer';
@@ -58,7 +59,8 @@ function App() {
       <About darkMode={darkMode} />
       <Skills darkMode={darkMode} />
       <Projects darkMode={darkMode} />
-      <Awards darkMode={darkMode} /> {/* 插入在 Projects 之后 */}
+      <Awards darkMode={darkMode} /> 
+      <ResearchExperience />
       <Experience darkMode={darkMode} />
       <Education darkMode={darkMode} />
       <Footer darkMode={darkMode} />
