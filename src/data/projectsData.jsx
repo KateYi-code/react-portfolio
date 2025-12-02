@@ -1,5 +1,6 @@
 import CMSImg from '../images/CMSImg.jpg'; 
 import planetImg from '../images/planet.gif';
+import peggaImg from '../images/pegga.gif';
 
 export const projectsData = [
   {
@@ -21,7 +22,7 @@ export const projectsData = [
     title: "Fullstack CMS Platform", 
     date: "10/2024 - 11/2024",
     githubUrl: "https://github.com/KateYi-code/Fullstack-CMS-Platform", 
-    image: CMSImg, 
+    image: peggaImg, 
     tech: ["Svelte", "Node.js", "MySQL", "Java Swing", "REST API"],
     description: "Architected a scalable content management ecosystem bridging a modern web frontend with a dual-interface backend. Designed to handle complex user interactions and content versioning with enterprise-grade logic.",
     points: [
