@@ -154,7 +154,7 @@ export default function ResearchExperience({ darkMode }) {
                       darkMode ? 'text-blue-300' : 'text-blue-900'
                     }`}>
                       <BookOpen className="w-4 h-4" />
-                      Why This Matters
+                      Key Contribution
                     </h4>
                     <p className={`text-sm leading-relaxed ${
                       darkMode ? 'text-blue-200/80' : 'text-blue-800/80'
